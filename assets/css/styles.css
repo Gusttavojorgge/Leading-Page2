@@ -328,9 +328,17 @@
 }
 
 @media (max-width: 720px) {
-
     .intro-content,
     .grid {
         grid-template-columns: 1fr;
+    }
+
+    .full-page-content {
+        display: grid;
+        grid-template-columns:  1fr;
+        gap: var(--gap);
+        counter-reset: grid-counter;
+        grid-gap: 5rem;
+        color: var(--white-color);
     }
 }
