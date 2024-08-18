@@ -276,7 +276,7 @@
     .close-menu-label::after {
         content: '☰';
         position: fixed;
-        z-index: 2;
+        z-index: 3;
         top: 2rem;
         right: 2rem;
         background: var(--primary-color);
